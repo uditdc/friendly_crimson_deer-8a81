@@ -1,4 +1,4 @@
-name = "friendly_crimson_deer-8a81"
+name = "template_name"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "friendly_crimson_deer-8a81_debug.wasm"
+entry = "template_name_debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "friendly_crimson_deer-8a81.wasm"
+entry = "template_name.wasm"
 command = "npm run build:release"
